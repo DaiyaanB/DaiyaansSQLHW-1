@@ -1,5 +1,5 @@
 -- How many reviews are written per neighborhood?
-
+select count(reviews) FROM reviews GROUP BY neighborhoods;
 -- +------------------------+----------+
 -- | Albany Park            | 2557     |
 -- | Archer Heights         | 541      |
